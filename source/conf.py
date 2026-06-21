@@ -26,3 +26,18 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+# Keep sidebar expanded even when navigating to other sections
+html_context = {
+    'display_github': False,
+}
+
+# Theme options
+html_theme_options = {
+    'collapse_navigation': True,  # Keep sidebar expanded
+    'sticky_navigation': True,
+    'titles_only': True,  # Show only section titles in the sidebar
+    'navigation_depth': 4,
+}
+
+html_extra_path = ['_static/robots.txt']
