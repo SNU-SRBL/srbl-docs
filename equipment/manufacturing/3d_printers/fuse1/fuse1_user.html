@@ -98,21 +98,158 @@
              
   <section id="user-guide">
 <h1>User Guide<a class="headerlink" href="#user-guide" title="Link to this heading"></a></h1>
-<p>This guide covers everything required for standard users to prepare, start, and post-process prints using the Formlabs Fuse 1 and the Fuse Sift station.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>🚧 <strong>Under Construction</strong> 🚧</p>
-<p>The step-by-step operating guide is currently being written. It will soon include:</p>
-<ul class="simple">
-<li><p>Pre-flight checklist (optical window check, powder leveling)</p></li>
-<li><p>Uploading jobs via PreForm software</p></li>
-<li><p>Post-processing parts in the Fuse Sift (powder recycling and part extraction)</p></li>
-</ul>
-</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>You must receive hands-on training from the equipment manager before operating this machine for the first time.</p>
+<p>안전 장비 필수 장착 (<strong>실험복, 마스크&lt;방진 1급&gt;, 니트릴 장갑</strong> + 보안경)
+호흡기 보호를 위해 반드시 방진 1급 마스크와 장갑 착용이 필요합니다.</p>
 </div>
+<section id="fuse1">
+<h2>Fuse1 이용 방법<a class="headerlink" href="#fuse1" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>STL 파일과 <a class="reference external" href="https://formlabs.com/kr/software/preform/">PreForm</a> 프로그램을 이용해서 큐 올리기</p></li>
+<li><dl class="simple">
+<dt>Hopper에 파우더 양 확인하기 (파우더 쌓아두지 말기)</dt><dd><ul class="simple">
+<li><p>파우더 부족하면 <code class="docutils literal notranslate"><span class="pre">fill</span></code>, <code class="docutils literal notranslate"><span class="pre">mix</span></code> 진행하여 Hopper에 보충하기</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>빌드챔버 (플러그 까지) 장착 후 프린트 시작</p></li>
+</ol>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 33.3%" />
+<col style="width: 33.3%" />
+<col style="width: 33.3%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image1.png"><img alt="../../../../_images/user-image1.png" src="../../../../_images/user-image1.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+<td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image2.png"><img alt="../../../../_images/user-image2.png" src="../../../../_images/user-image2.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+<td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image3.png"><img alt="../../../../_images/user-image3.png" src="../../../../_images/user-image3.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>온도가 내려가기 전까지 절대 꺼내지 마세요. 화상 위험이 있습니다. (Cooling time 지켜주세요.)</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl class="simple">
+<dt>⚠️🚦 사용 전 필수 점검 사항!! (매 프린트 시작 전!! 무조건 수행)</dt><dd><ul class="simple">
+<li><p><strong>IR sensor</strong>: 윗 뚜껑 열어서 육안으로 확인하기 (오염시 광학천 이용)</p></li>
+<li><p><strong>Optical Cassette</strong>: 광학천과 에탄올 이용해서 닦아주기 (양면 중에서 윗면은 닦을 필요 없고, 아랫면 닦아주기)</p></li>
+<li><p><strong>내부 청결</strong>: 파우더 모두 제거</p></li>
+<li><p><strong>모터</strong>: Flipper motor 부분 확인하기. Recoater 광학천으로 닦아주기.</p></li>
+<li><p><strong>필터</strong>: 옆면 필터 먼지 진공 청소</p></li>
+<li><p><strong>안전장비</strong>: 필수 장착! (<strong>실험복, 마스크&lt;방진 1급&gt;, 니트릴 장갑</strong> + 보안경)</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image6.png"><img alt="../../../../_images/user-image6.png" src="../../../../_images/user-image6.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+<td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image7.png"><img alt="../../../../_images/user-image7.png" src="../../../../_images/user-image7.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+<td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image8.png"><img alt="../../../../_images/user-image8.png" src="../../../../_images/user-image8.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+<td><figure class="align-center">
+<a class="reference internal image-reference" href="../../../../_images/user-image9.png"><img alt="../../../../_images/user-image9.png" src="../../../../_images/user-image9.png" style="width: 100%;" />
+</a>
+</figure>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr class="docutils" />
+<section id="sift">
+<h2>Sift 이용 방법<a class="headerlink" href="#sift" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="../../../../_images/user-image4.png"><img alt="../../../../_images/user-image4.png" class="align-center" src="../../../../_images/user-image4.png" style="width: 60%;" />
+</a>
+<a class="reference internal image-reference" href="../../../../_images/user-image5.png"><img alt="../../../../_images/user-image5.png" class="align-center" src="../../../../_images/user-image5.png" style="width: 60%;" />
+</a>
+<ol class="arabic simple">
+<li><p>안전 장비 필수 장착</p></li>
+<li><p>Build Chamber 가져오기 (온도 충분히 식은 다음에 가져오기)</p></li>
+<li><p>⬆️ <strong>윗 방향 버튼</strong> 으로 눌러서 파우더 케이크 꺼내기</p></li>
+<li><p>💡 <strong>light 버튼</strong>, <code class="docutils literal notranslate"><span class="pre">sift</span> <span class="pre">버튼</span></code> 누르고 후처리</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">VAC</span></code> 눌러서 진공 청소기로 빨아드리기 (주의: Sift랑 Vac 동시에 쓰면 전원 나갈 수 있어요)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Fill</span></code>: 비율 30%로 used(70) + fresh(30) Fill 받기</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Mix</span></code>: 옆에 장착하고 Mix 버튼 눌러서 돌리기</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl class="simple">
+<dt><strong>이용 후 마무리: 다음 사람을 위해서!</strong></dt><dd><ul class="simple">
+<li><p>Fuse1 파우더 잔여물 청소</p></li>
+<li><p>Fuse Sift 파우더 잔여물 청소</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h2>📢 운영 방식<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>주 3회 운영 원칙 (월 - 수 - 금 운영)</p></li>
+</ul>
+<section id="id2">
+<h3>카톡방 이용 방법<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>월-수-금 요일마다 사람 모으기 → 한 명이 출력하고 톡방에 공유하기</p></li>
+<li><p>Preform 에서 표시하는 시간 (총 시간 + Cooling 시간) 톡방에 공유하기</p></li>
+<li><p>후처리는 각자 진행</p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>파우더 구분<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>새 파우더 / 헌 파우더 (N12 재활용) / 폐 파우더</p></li>
+<li><p>제습제로 관리</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="issue">
+<h2>🚨 Issue 발생 시 담당자 문의<a class="headerlink" href="#issue" title="Link to this heading"></a></h2>
+<div class="line-block">
+<div class="line">❗ 프린터가 작동이 되지 않아요.</div>
+<div class="line">❗ 프린터 결과물이 안좋아요. 혹은 파우더가 경화돼서 타버렸어요.</div>
+<div class="line">❗ 양 옆 <strong>heater 유리관</strong> <strong>뿌얘지면 문제</strong>. 검게 변하면 그냥 탄거니까 문제 없음</div>
+<div class="line">❗ <strong>빌드 챔버</strong> 진동 발생시</div>
+</div>
+</section>
 </section>
 
 

@@ -3,12 +3,13 @@ Formlabs Fuse 1
 
 .. note::
    🚧 **Under Construction** 🚧
-   
    Fuse 1 은 현재 수리 받는 중입니다.
 
 Welcome to the documentation for the **Formlabs Fuse 1**.
-The **Formlabs Fuse 1** is an industrial Selective Laser Sintering (SLS) 3D printer designed to produce robust, functional nylon parts in-house.
-It brings traditionally expensive, large-scale manufacturing technology into a compact, benchtop-friendly format, eliminating the need for complex support structures.
+The **Formlabs Fuse 1** is an industrial Selective Laser Sintering (SLS) 3D printer designed 
+to produce robust, functional nylon parts in-house.
+It brings traditionally expensive, large-scale manufacturing technology into a compact, 
+benchtop-friendly format, eliminating the need for complex support structures.
 
 Here are the documents for Users and Managers:
 
@@ -30,13 +31,13 @@ Technical Specifications
           :width: 100%
           :align: center
 
-          *Left Image Caption*
+          *Fuse1*
 
      - .. figure:: /_static/fuse1/intro-image2.png
           :width: 100%
           :align: center
 
-          *Right Image Caption*
+          *Sift*
 
 * **Build Volume:** :math:`16.5 \times 16.5 \times 30.0 \text{ cm}^3`
 * **Operating Temperature:** 200°C
