@@ -11,3 +11,5 @@
    :caption: 3D Printers:
 
    fuse1/fuse1
+   cubicon
+   sindoh
