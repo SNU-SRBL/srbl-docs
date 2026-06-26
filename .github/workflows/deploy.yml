@@ -4,6 +4,16 @@ on:
   push:
     branches:
       - main # Change to master if your default branch is master
+    paths:
+      - "source/**"
+      - "Makefile"
+      - "make.bat"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: docs-deploy-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
